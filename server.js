@@ -11,8 +11,8 @@ var api = new ParseServer({
   cloud: __dirname + "/cloud-code.js",
   publicServerURL: "http://localhost:1337/parse",
 
-  verbose: true,
-
+  verbose: false,
+  silent: true,
   push: {
     android: {
       senderId: "blank-sender-id",
